@@ -1,0 +1,27 @@
+// ======================================
+// NPC for access Faustus Tower (fau_to1)
+// ======================================
+
+prt_cas,96,298,4	script	Paladin of Faustus	3233,{
+
+	mes "[Paladin of Faustus]";
+	mes "Greetings. Master Faustus Renard prepared this Headquarters for his studies and rest.";
+	mes "Would you like to teleport to the first floor of the Tower right now?";
+	next;
+
+	if(select("Yes, take me to the Tower.:No, I'll stay here for now.") == 2) {
+		mes "[Paladin of Faustus]";
+		mes "As you wish. I will be here awaiting your orders.";
+		close;
+	}
+
+	mes "[Paladin of Faustus]";
+	mes "All right. Preparing for the magical journey...";
+	close2;
+
+    warp "fau_t01", 149, 72;
+    end;
+}
+
+fau_t01,150,78,4	duplicate(Warper)	Warper#bra	3233
+
