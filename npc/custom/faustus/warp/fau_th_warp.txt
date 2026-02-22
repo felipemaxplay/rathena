@@ -49,29 +49,29 @@ fau_t08,114,43,0	warp	WarpFauTower8a	1,1,fau_step,32,224
 fau_step,29,224,0	warp	WarpFauTower8b	1,1,fau_t08,110,43
 
 // Faustus Steps For Level 9 (fau_step)
-fau_step,32,166,0	warp	WarpFauTowerStepD	1,1,fau_t09,20,96
-fau_t09,18,92,0	warp	WarpFauTowerStepE	1,1,fau_step,36,166
+fau_step,32,166,0	warp	WarpFauTowerStepE	1,1,fau_t09,20,96
+fau_t09,18,92,0	warp	WarpFauTowerStepF	1,1,fau_step,36,166
 
 // Faustus Tower Level 9 (fau_t09)
 fau_t09,92,146,0	warp	WarpFauTower9a	1,1,fau_step,184,224
 fau_step,180,224,0	warp	WarpFauTower9b	1,1,fau_t09,86,146
 
 // Faustus Steps For Level 10 (fau_step)
-fau_step,182,166,0	warp	WarpFauTowerStepF	1,1,fau_t10,155,100
-fau_t10,165,100,0	warp	WarpFauTowerStepG	1,1,fau_step,186,166
+fau_step,182,166,0	warp	WarpFauTowerStepG	1,1,fau_t10,155,100
+fau_t10,165,100,0	warp	WarpFauTowerStepH	1,1,fau_step,186,166
 
 // Faustus Tower Level 10 (fau_t10)
 fau_t10,170,138,0	warp	WarpFauTower10a	1,1,fau_step,18,74
 fau_step,14,74,0	warp	WarpFauTower10b	1,1,fau_t10,166,138
 
 // Faustus Steps For Level 11 (fau_step)
-fau_step,16,16,0	warp	WarpFauTowerStepH	1,1,fau_t11,50,17
-fau_t11,51,14,0	warp	WarpFauTowerStepI	1,1,fau_step,20,16
+fau_step,16,16,0	warp	WarpFauTowerStepI	1,1,fau_t11,50,17
+fau_t11,51,14,0	warp	WarpFauTowerStepJ	1,1,fau_step,20,16
 
 // Faustus Tower Level 11 (fau_t11)
 fau_t11,92,36,0	warp	WarpFauTower11a	1,1,fau_step,184,74
 fau_step,180,74,0	warp	WarpFauTower11b	1,1,fau_t11,88,36
 
 // Faustus Steps For Level 12 (fau_step)
-fau_step,182,16,0	warp	WarpFauTowerStepJ	1,1,fau_t12,115,16
-fau_t12,123,14,0	warp	WarpFauTowerStepK	1,1,fau_step,186,16
+fau_step,182,16,0	warp	WarpFauTowerStepK	1,1,fau_t12,115,16
+fau_t12,123,14,0	warp	WarpFauTowerStepL	1,1,fau_step,186,16
