@@ -23,5 +23,3 @@ prt_cas,96,298,4	script	Paladin of Faustus	3233,{
     end;
 }
 
-fau_t01,150,78,4	duplicate(Warper)	Warper#bra	3233
-
